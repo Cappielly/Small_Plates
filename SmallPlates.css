@@ -1,0 +1,248 @@
+html{
+    background-color:burlywood;
+    
+}
+    
+body{
+    
+}
+.container{ 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h2{
+    text-align: center;
+    font-family:cursive;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    font-family:cursive;
+    font-weight: bold;
+    color: maroon;
+}
+.main-area{
+    
+}
+.content-area{
+    
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.Eric{
+    width: 50%;
+    float: left;
+    background-color: beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.hover a:hover{
+    background-color: coral;
+}
+    
+.intro{
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#hat{
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;  
+    border-radius: 5px;
+    opacity: 0.03;
+}
+#hat:hover{
+    opacity: 1.0;
+    transition: opacity 1s ease-in;
+  
+}
+#hover{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#center{
+    text-align: center;
+}
+#tolk{
+    background-color: lightsteelblue;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.button1{
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    
+}
+#center1{
+    text-align: center;
+    color: maroon;
+}
+.chick{
+    width: 50%;
+    float: left;
+    background-color:khaki;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    font-size: 85%;
+    font-weight:bold;
+}
+.ul{
+ 
+}
+.button2{
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;  
+}
+.nancy{
+    line-height: 94%;
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;  
+}
+.sherry{
+     width: 50%;
+    float: left;
+    background-color:khaki;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px; 
+    font-size: 85%;
+    font-weight:bold;
+    
+}
+.tip{
+    background-color:darkkhaki;
+    font-family:monospace;
+    font-size: 125%;
+    padding: 10px;
+    margin-bottom: 26px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.nancy2{
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 5px;      
+}
+.nancy3{
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;      
+}
+.cakes{
+    width: 50%;
+    float: left;
+    background-color:khaki;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 85%;
+    font-weight: bold;
+}
+#shaw{
+    float: right;
+    background-color: lightsteelblue;
+    padding: 10px 20px 10px 20px;
+    border-radius:5px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.dumas{
+    width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;      
+}
+.dumas2{
+     width: 50%;
+    float: left;
+    background-color:beige;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;      
+}
+.veg{
+    width: 50%;
+    float: left;
+    background-color:khaki;
+    border: 2px grey solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 85%;
+    font-weight: bold;  
+}
+    
+p{
+    text-indent: 10px;
+    
+}
