@@ -4,6 +4,7 @@ html{
 }
     
 body{
+    font-size; 16px;
     
 }
 .container{ 
@@ -33,41 +34,29 @@ h4{
     text-align: center;
     font-weight: bold;
 }
-
-.Eric{
-    width: 50%;
-    float: left;
+.row1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;
+    
+}
+.col{
     background-color: beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
+    border: 2px solid grey;
+    padding: 0 10px;
     border-radius: 5px;
-    
-}
-.hover a:hover{
-    background-color: coral;
 }
     
-.intro{
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;
+.row2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;
     
-}
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 #hat{
     float: left;
+    max-width: 40%;
     margin-right: 10px;
     border: 1px solid black;  
     border-radius: 5px;
@@ -88,76 +77,35 @@ h4{
 }
 #tolk{
     background-color: lightsteelblue;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 40px 40px;
     border-radius: 5px;
+    font-size: 125%;
     font-family: cursive;
     font-weight: bold;
 }
-.button1{
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    
-    
+.recipe{
+    font-size: 85%;
+    font-weight: bold;
 }
+
 #center1{
     text-align: center;
     color: maroon;
 }
-.chick{
-    width: 50%;
-    float: left;
-    background-color:khaki;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px; 
-    font-size: 85%;
-    font-weight:bold;
-}
+
 .ul{
  
 }
-.button2{
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;  
+.row3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;  
 }
-.nancy{
-    line-height: 94%;
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;  
+.nancy1{
+    line-height: 95%;
 }
-.sherry{
-     width: 50%;
-    float: left;
-    background-color:khaki;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px; 
-    font-size: 85%;
-    font-weight:bold;
-    
-}
+
 .tip{
     background-color:darkkhaki;
     font-family:monospace;
@@ -167,40 +115,20 @@ h4{
     border-radius: 10px;
     font-weight: bold;
 }
+.row4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;    
+}
 .nancy2{
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 12px;
-    box-sizing: border-box;
-    border-radius: 5px;      
+    
 }
-.nancy3{
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;      
+.row5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;       
 }
-.cakes{
-    width: 50%;
-    float: left;
-    background-color:khaki;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 85%;
-    font-weight: bold;
-}
+
 #shaw{
     float: right;
     background-color: lightsteelblue;
@@ -209,38 +137,25 @@ h4{
     font-family: cursive;
     font-weight: bold;
 }
-.dumas{
-    width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;      
+.nancy3{
+    
+}
+.row6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;       
+}
+    
+.dumas1{
+    
 }
 .dumas2{
-     width: 50%;
-    float: left;
-    background-color:beige;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    box-sizing: border-box;
-    border-radius: 5px;      
+    
 }
-.veg{
-    width: 50%;
-    float: left;
-    background-color:khaki;
-    border: 2px grey solid;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 85%;
-    font-weight: bold;  
+.row7{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1px;          
 }
     
 p{
