@@ -30,6 +30,7 @@ h3{
 .content-area{
     
 }
+
 h4{
     text-align: center;
     font-weight: bold;
@@ -38,7 +39,6 @@ h4{
     display: grid;
     width: 100%;
     grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
-    grid-column-gap: 1px;
     grid-gap: 1px;
     
 }
@@ -47,6 +47,13 @@ h4{
     border: 2px solid grey;
     padding: 0 10px;
     border-radius: 5px;
+}
+@media screen and (max-width: 800px){
+    .row,
+    .col{
+        grid-template-columns: 1fr;
+    }
+    
 }
     
 
@@ -107,11 +114,7 @@ h4{
     border-radius: 10px;
     font-weight: bold;
 }
-.row4{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1px;    
-}
+
 .nancy2{
     
 }
