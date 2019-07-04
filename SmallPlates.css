@@ -34,10 +34,12 @@ h4{
     text-align: center;
     font-weight: bold;
 }
-.row1{
+.row{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
     grid-column-gap: 1px;
+    grid-gap: 1px;
     
 }
 .col{
@@ -47,12 +49,6 @@ h4{
     border-radius: 5px;
 }
     
-.row2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1px;
-    
-}
 
 #hat{
     float: left;
@@ -97,11 +93,7 @@ h4{
 .ul{
  
 }
-.row3{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1px;  
-}
+
 .nancy1{
     line-height: 95%;
 }
@@ -123,11 +115,6 @@ h4{
 .nancy2{
     
 }
-.row5{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1px;       
-}
 
 #shaw{
     float: right;
@@ -140,22 +127,12 @@ h4{
 .nancy3{
     
 }
-.row6{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1px;       
-}
     
 .dumas1{
     
 }
 .dumas2{
     
-}
-.row7{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 1px;          
 }
     
 p{
