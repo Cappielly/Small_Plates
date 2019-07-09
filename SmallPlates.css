@@ -106,11 +106,11 @@ h4{
 }
 
 .tip{
-    background-color:darkkhaki;
+    background-color:lightblue;
     font-family:monospace;
     font-size: 125%;
-    padding: 10px;
-    margin-bottom: 26px;
+    padding: 15px;
+    margin-bottom: 40px;
     border-radius: 10px;
     font-weight: bold;
 }
