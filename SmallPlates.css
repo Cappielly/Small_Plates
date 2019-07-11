@@ -137,6 +137,23 @@ h4{
 .dumas2{
     
 }
+#report{
+    font-family: fantasy;
+}
+a{
+    text-decoration: none;
+    color: darkolivegreen;
+    background-color: khaki;
+    font-family: cursive;
+    font-size: 75%;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 1px 5px;
+    
+}
+a:hover{
+    background-color: darkkhaki;
+}
     
 p{
     text-indent: 10px;
