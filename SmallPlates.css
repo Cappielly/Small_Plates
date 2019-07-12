@@ -138,21 +138,32 @@ h4{
     
 }
 #report{
-    font-family: fantasy;
+    font-family: cursive;
 }
 a{
     text-decoration: none;
     color: darkolivegreen;
     background-color: khaki;
     font-family: cursive;
-    font-size: 75%;
+    font-size: 70%;
     border: 1px solid black;
     border-radius: 3px;
     padding: 1px 5px;
     
 }
 a:hover{
-    background-color: darkkhaki;
+    background-color: lightblue;
+}
+#img1{
+    
+    
+}
+
+img{
+    display: inline;
+    border: 1px solid black;
+    width: 47%;
+    margin-left: 5px;
 }
     
 p{
