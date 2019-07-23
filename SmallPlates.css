@@ -140,9 +140,10 @@ h4{
 #ant{
     background-color: lightsteelblue;
     margin-top: 10px;
-    padding: 5px 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
     border-radius: 5px;
-    font-size: 125%;
+    font-size: 115%;
     font-family: cursive;
     font-weight: bold;
 }
@@ -173,6 +174,17 @@ img{
     border: 1px solid black;
     width: 47%;
     margin-left: 5px;
+}
+#wild{
+    background-color: lightsteelblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px 1px;
+    border-radius: 5px;
+    font-size: 115%;
+    font-family: cursive;
+    font-weight: bold;
+    
 }
     
 p{
