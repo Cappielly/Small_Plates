@@ -87,8 +87,25 @@ h4{
     font-family: cursive;
     font-weight: bold;
 }
-.recipe{
-    font-size: 85%;
+button1{
+    
+}
+#volt{
+     background-color: lightsteelblue;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 120%;
+    font-family: cursive;
+    font-weight: bold;
+}
+.chicprov{
+    font-size: 95%;
+    font-weight: bold;
+    
+}
+.cakes{
+    font-size: 88%;
     font-weight: bold;
 }
 
@@ -103,6 +120,10 @@ h4{
 
 .nancy1{
     line-height: 95%;
+}
+.shervin{
+    font-weight: bold;
+    font-size: 95%
 }
 
 .tip{
@@ -143,15 +164,39 @@ h4{
 .dumas2{
     
 }
+.chef ed{
+    
+}
+.vegroast{
+    font-weight: bold;
+    font-size: 95%;
+    
+    
+}
 #ant{
     background-color: lightsteelblue;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 1px 1px;
     border-radius: 5px;
-    font-size: 115%;
     font-family: cursive;
     font-weight: bold;
+}
+.celeb chef1{
+    
+}
+.celeb chef2{
+    
+}
+.celeb chef3{
+    
+}
+.smokey{
+    font-weight: bold;
+    font-size: 95%;   
+}
+.celeb chef4{
+    
 }
 #report{
     font-family: cursive;
